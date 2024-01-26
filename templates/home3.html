@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<header>
+    <h1>Create a Madlib</h1>
+    <p>
+        Mad Libs is a phrasal template word game created by Leonard Stern
+        and Roger Price. It consists of one player prompting others for a 
+        list of words to substitute for blanks in a story before reading 
+        aloud. The game is frequently played as a party game or as a pastime.
+    </p>
+</header>
+<form action="/story" id="userInput">
+    <input type="text" placeholder="Place" name="place">
+    <button id="submit">Create Your Story!</button>
+</form>
+
+
+{% endblock %}

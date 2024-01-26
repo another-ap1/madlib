@@ -1,0 +1,21 @@
+header{
+    width: 400px;
+}
+body{
+    margin:40px
+}
+#userInput{
+    width: 300px;
+    float: left;
+    line-height: 20px;
+}
+
+#submit{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#submit:hover{
+    background-color: purple;
+    color: white;
+}
